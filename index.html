@@ -1,13 +1,205 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olena Melnyk</title>
+    <link rel="shortcut icon" href="img/png/icon_logo_new_1.png" type="image/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <script defer src="JS/burger-menu.js"></script>
+    <script defer src="JS/nav-menu-fixed.js"></script>
+    <script defer src="JS/transition-smooth-to-section.js"></script>
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <header>
+            <div class="header-mobile__head-block" id="navbar">
+                <div class="header__head-nav-block">
+                    <div class="container">
+                        <div class="header__menu-block">
+                            <div class="header__head-nav-menu-block">
+                                <div class="header__logo-block">
+                                    <a href="index.html">
+                                        <img src="img/png/icon_logo_only_new.png" alt="logo" class="header__logo">
+                                    </a>
+                                </div>
+
+                                <div class="header__head-burger-menu-icon-block">
+                                    <div class="header__burger-menu-icon-block" id="burgermenu-btn">
+                                        <span class="header__burger-menu-line"></span>
+                                        <span class="header__burger-menu-line"></span>
+                                        <span class="header__burger-menu-line"></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header__head-menu-block" id="burgermenu">
+                    <div class="container">
+                        <nav class="header__burgermenu-blocks">
+                            <ul class="header__burgermenu-ul-blocks">
+                                <li class="header__burgermenu-title-block">
+                                    <a href="index.html" class="header__burgermenu-title"
+                                        data-lang="navHead">Головна</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="#about_me" class="header__burgermenu-title my__fixed-transition-point"
+                                        data-lang="navAboutMe">Про
+                                        курс</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="#topics" class="header__burgermenu-title my__fixed-transition-point"
+                                        data-lang="navTopics">Теми</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="#cost" class="header__burgermenu-title my__fixed-transition-point"
+                                        data-lang="navCost">Вартість</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="#about_club" class="header__burgermenu-title my__fixed-transition-point"
+                                        data-lang="navAboutClub">Про
+                                        мене</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="#answer-testimonials"
+                                        class="header__burgermenu-title my__fixed-transition-point"
+                                        data-lang="navTestimonials">Відгуки</a>
+                                </li>
+                                <li class="header__burgermenu-title-block">
+                                    <a href="contacts.html" class="header__burgermenu-title"
+                                        data-lang="navContacts">Контакти</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-desctop__head-block" id="navbar-desctop">
+                <div class="header-desctop__head-nav-block">
+                    <div class="container">
+                        <div class="header-desctop__menu-block">
+                            <div class="header-desctop__head-nav-menu-block">
+                                <div class="header__logo-block">
+                                    <a href="index.html">
+                                        <img src="img/png/icon_logo_only_new.png" alt="logo"
+                                            class="header-desctop__logo">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <nav class="header-desctop__burgermenu-blocks">
+                                <ul class="header-desctop__burgermenu-ul-blocks">
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="index.html" class="header__burgermenu-title"
+                                            data-lang="navHead">Головна</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#about_me" class="header__burgermenu-title my__fixed-transition-point"
+                                            data-lang="navAboutMe">Про
+                                            курс</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#topics" class="header__burgermenu-title my__fixed-transition-point"
+                                            data-lang="navTopics">Теми</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#cost" class="header__burgermenu-title my__fixed-transition-point"
+                                            data-lang="navCost">Вартість</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#about_club"
+                                            class="header__burgermenu-title my__fixed-transition-point"
+                                            data-lang="navAboutClub">Про мене</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="#answer-testimonials"
+                                            class="header__burgermenu-title my__fixed-transition-point"
+                                            data-lang="navTestimonials">Відгуки</a>
+                                    </li>
+                                    <li class="header-desctop__burgermenu-title-block">
+                                        <a href="contacts.html" class="header__burgermenu-title"
+                                            data-lang="navContacts">Контакти</a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                    </nav>
+                </div>
+            </div>
+    </div>
+    </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer id="contacts">
+        <div class="container">
+            <div class="footer__contacts-block">
+
+                <div class="text-center footer__logo-block">
+                    <a href="index.html" class="footer__logo">
+                        <img src="img/svg/logo_new.svg" alt="logo" class="footer__logo-img">
+                    </a>
+                </div>
+
+                <div class="row footer__contacts-info-blocks">
+                    <div class="col">
+                        <div class="footer__contacts-title-head-block">
+                            <div class="footer__contacts-title-block">
+                                <p class="footer__title-contacts" data-lang="navContacts">Контакти:</p>
+                            </div>
+                            <div class="footer__contacts-block-email">
+                                <p class="footer__contacts-item"> <span class="footer__contacts-type">Email:</span>
+                                    <a href="mailto:olena.melnyk.psychologist@gmail.com"
+                                        class="footer__contacts-email">olena.melnyk.psychologist@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="footer__contacts-title-head-block footer__contacts-messages">
+                            <div class="footer__contacts-title-block">
+                                <p class="footer__title-contacts" data-lang="messengers">Месенджери:</p>
+                            </div>
+                            <div class="footer__contacts-block-messages">
+                                <a href="https://instagram.com/elenamelnyk.psyholog?igshid=YmMyMTA2M2Y=" target="_blank"
+                                    rel="noopener"><img class="footer__contacts-nav-icons-img"
+                                        src="img/svg/instagram_icons.svg" alt="telegram" width="25"></a>
+
+                                <a href="https://telegram.me/ELENA_MELNYK_PV" target="_blank" rel="noopener"><img
+                                        class="footer__contacts-nav-icons-img" src="img/svg/telegram_icons_new.svg"
+                                        alt="instagram" width="25"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__contacts-line-block">
+                        <span class="footer__contacts-line"></span>
+                    </div>
+
+                    <div class="footer__copyright-block">
+                        <p class="footer__copyright-title">© <span data-lang="copyright-title">Олена Мельник. Всі
+                                права захищені.</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
 </body>
+
 </html>
