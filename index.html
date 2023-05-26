@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/index.css">
     <script defer src="JS/burger-menu.js"></script>
     <script defer src="JS/nav-menu-fixed.js"></script>
-    <script defer src="JS/transition-smooth-to-section.js"></script>
+    <!-- <script defer src="JS/transition-smooth-to-section.js"></script> -->
+    <script defer src="JS/spawn-animation.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
                             <div class="header__head-nav-menu-block">
                                 <div class="header__logo-block">
                                     <a href="index.html">
-                                        <img src="img/png/icon_logo_only_new.png" alt="logo" class="header__logo">
+                                        <img src="img/svg/icon_logo_string_new.svg" alt="logo" class="header__logo">
                                     </a>
                                 </div>
 
@@ -141,7 +142,84 @@
     </header>
 
     <main>
+        <section class="private_club_home">
+            <div class="container">
+                <div class="private_club_home__head-block">
+                    <div class="private_club_home__head-title-block">
+                        <h4 class="text-uppercase private_club_home__head-title-up"
+                            data-lang="navPrivate">Авторський онлайн-курс Олени Мельник</h4>
+                        <h1 class="text-center">
+                            &#171;<span class="private_club_home__head-title"
+                                data-lang="headTitleLife">ВІЛЬНА</span>&#187;</h1>
+                    </div>
 
+                    <!-- <div class="private_club_home__line-block">
+                        <span class="element_animation element_animation-left private_club_1__line"></span>
+                        <img class="private_club_home__line-img element_animation_text"
+                            src="img/png/clover-light-50.png" alt="">
+                        <span class="element_animation element_animation-right private_club_1__line"></span>
+                    </div> -->
+
+                    <div class="private_club_home__text-block">
+                        <p class="private_club_home__text" data-lang="homeTextUp">Про те, як стати центром свого життя та розкрити внутрішнє джерело щастя</p>
+                        <p class="private_club_home__text" data-lang="homeText">СТАРТ скоро!</p>
+                    </div>
+
+                    <div class="private_club_home__title-block">
+                        <h6 class="private_club_home__title" data-lang="homeTitleUp">Незабаром я запрошу вас на наступний потік</h6>
+                        <h6 class="private_club_home__title" data-lang="homeTitle">Оплачуй, щоб не пропустити</h6>
+                    </div>
+
+                    <div class="text-center private_club_home__btn-block" id="linkBtn">
+                        <a href="#cost" class="my__btn-uppercase my__btn-blink private_club__btn my__fixed-transition-point"><span
+                            class="private_club__btn-text" data-lang="btn">Оплатити</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pc_about_me" id="about_me">
+            <div class="container">
+                <div class="pc_about_me__head-block">
+                    <div class="pc_about_me__head-img-block">
+                        <div class="pc_about_me__img-block">
+                            <img src="img/photo_pc_about-me.jpeg" alt="" class="img-fluid pc_about_me__img">
+                        </div>
+                    </div>
+
+                    <div class="pc_about_me__main-title-block">
+                        <div class="pc_about_me__head-title-block">
+                            <h3 class="text-uppercase pc_about_me__head-title" data-lang="meHeadTitle">Олена Мельник
+                            </h3>
+                        </div>
+
+                        <div class="pc_about_me__title-block">
+                            <p class="text-uppercase pc_about_me__title" data-lang="meTitle">ПСИХОЛОГИНЯ,
+                                ПРАКТИКУЮЧА ЖІНОЧА ТРЕНЕРКА,
+                                БЛОГЕРКА</p>
+                        </div>
+
+                        <div class="pc_about_me__head-text-block">
+                            <p class="pc_about_me__head-text" data-lang="meHeadText">Автор методик розвитку, експерт
+                                у сфері емоційної компетенції та психології відносин, інтегративний підхід.</p>
+                        </div>
+
+                        <div class="pc_about_me__list-main-block">
+                            <ul class="pc_about_me__list-block">
+                                <li class="pc_about_me__list" data-lang="meDiploma">Диплом КНУ імені Тараса Шевченка
+                                </li>
+                                <li class="pc_about_me__list" data-lang="mePractice">Більше 5 років практики</li>
+                                <li class="pc_about_me__list" data-lang="meSessions">Більше 2000 проведених сесій
+                                </li>
+                                <li class="pc_about_me__list" data-lang="meCreator">Творець 6 онлайн курсів, які
+                                    пройшли понад 1000 жінок</li>
+                            </ul>
+                        </div>
+                        </di>
+                    </div>
+                </div>
+        </section>
     </main>
 
     <footer id="contacts">
