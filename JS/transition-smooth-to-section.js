@@ -22,7 +22,7 @@
     });
 
     $(document).ready(function () {
-        $('#linkBtn').on('click', '.my__fixed-transition-point', function (event) {
+        $('#linkBtnOne, #linkBtnTwo').on('click', '.my__fixed-transition-point', function (event) {
             event.preventDefault();
 
             const id = $(this).attr('href'),
