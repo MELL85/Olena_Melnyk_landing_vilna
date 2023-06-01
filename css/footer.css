@@ -64,6 +64,8 @@ footer {
 .footer__title-color {
     transition: color 0.3s ease;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--COLOR-TEXT-NAVMENU);
 }
 
 .footer__title-color:hover {
