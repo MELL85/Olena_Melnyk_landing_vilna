@@ -12,9 +12,10 @@
     font-family: 'Playfair Display', serif;
     color: var(--COLOR-TEXT);
     font-size: 28px;
-    letter-spacing: 6px;
+    letter-spacing: 2px;
     font-weight: 400;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .home__head-title-up {
@@ -101,6 +102,7 @@
     .home__head-title {
         font-size: 36px;
         margin: 0 0 20px;
+        letter-spacing: 3px;
     }
 
     .home__head-title-up {
@@ -204,6 +206,10 @@
     color: var(--COLOR-HEAD-TITLE);
 }
 
+.results__list-block {
+    padding: 0;
+}
+
 .results__block {
     padding: 0;
 }
@@ -271,6 +277,7 @@
 .about_courses__head-title {
     font-family: 'Playfair Display', serif;
     color: var(--COLOR-HEAD-TITLE);
+    padding-bottom: 10px;
 }
 
 .about_courses__list-block {
@@ -493,7 +500,7 @@
 
 .cards__item-title {
     margin: 0 0 20px;
-    color: var(--COLOR-TEXT-NAVMENU);
+    color: var(--COLOR-BG-SECTION-LIGHT);
 }
 
 .cards__item-line-block {
