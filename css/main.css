@@ -119,6 +119,7 @@
     .home__text,
     .home__title {
         font-size: 18px;
+        margin: 15px;
     }
 }
 
@@ -246,7 +247,11 @@
     font-weight: 500;
     letter-spacing: 1px;
     padding: 0 0 20px;
-    }
+}
+
+.about_courses__text-down {
+    font-size: 18px;
+}
 
 @media screen and (min-width: 576px) {
 
@@ -260,7 +265,6 @@
     .about_courses {
         background-size: cover;
         background-attachment: fixed;
-        height: 100vh;
     }
 
     .about_courses__head-title {
@@ -275,12 +279,15 @@
         font-size: 26px;
     }
 
+    .about_courses__text-down {
+        font-size: 22px;
+    }
+
     .about_courses__head-block {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 120px 20px;
-    } 
+        padding: 100px 20px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -296,6 +303,10 @@
     .about_courses__text {
         font-size: 30px;
     }
+
+    .about_courses__text-down {
+        font-size: 26px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -310,6 +321,10 @@
 
     .about_courses__text {
         font-size: 34px;
+    }
+
+    .about_courses__text-down {
+        font-size: 30px;
     }
 }
 
@@ -388,6 +403,7 @@
 
     .results__head-title-block {
         margin-bottom: 20px;
+        padding-top: 20px;
     }
 }
 
@@ -434,6 +450,20 @@
         font-size: 20px;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .topics__main-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        justify-items: center;
+    }
+
+    .topics__block {
+        max-width: 350px;
+    }
+}
+
 
 /* profit */
 
@@ -620,7 +650,7 @@
 .cards__block-item {
     background-color: var(--COLOR-BG-CARD-COST);
     text-align: center;
-    padding: 20px 10px;
+    padding: 20px 10px 30px;
     margin: 0 0 30px;
 }
 
