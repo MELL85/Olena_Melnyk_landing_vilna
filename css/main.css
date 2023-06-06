@@ -742,6 +742,12 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .cards__block-item {
+        width: 295px;
+    }
+}
+
 
 /* oferta */
 
