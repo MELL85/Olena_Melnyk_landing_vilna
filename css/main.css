@@ -37,21 +37,10 @@
     font-weight: 600;
 }
 
-.home__title {
-    font-size: 16px;
-    font-weight: 300;
-    margin: 10px;
-    text-align: center;
-}
-
 .home__text-min {
     font-size: 11px;
     margin: -10px 0 10px;
 
-}
-
-.home__title-block {
-    padding-bottom: 25px;
 }
 
 .btn {
@@ -116,10 +105,14 @@
         margin: 0 0 20px;
     }
 
-    .home__text,
-    .home__title {
-        font-size: 18px;
-        margin: 15px;
+    .home__text {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .home__text-min {
+        font-size: 14px;
+        margin-top: -10px;
     }
 }
 
@@ -149,10 +142,19 @@
 
     .home__head-title,
     .home__head-title-up,
-    .home__text,
-    .home__title {
+    .home__text {
         text-align: left;
         margin-inline: 0;
+    }
+
+    .home__text {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+
+    .home__text-min {
+        font-size: 16px;
+        margin-top: -10px;
     }
 }
 
