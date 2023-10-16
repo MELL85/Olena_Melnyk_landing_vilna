@@ -1,0 +1,128 @@
+.about_courses {
+    background-image: linear-gradient(to top, rgba(36, 29, 26, 0.7), rgba(36, 29, 26, .7)), url(../img/private_club_topics.jpeg);
+    background-size: cover;
+    background-position: 50% 45%;
+}
+
+.about_courses__head-block {
+    padding: 45px 20px;
+}
+
+.about_courses__head-title-block {
+    text-align: center;
+    padding: 24px 0 5px;
+}
+
+.about_courses__head-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about_courses__line-block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.about_courses__line {
+    width: 20%;
+}
+
+.about_courses__line-img {
+    padding: 0 20px;
+    width: 65px;
+}
+
+.about_courses__text-block {
+    text-align: center;
+}
+
+.about_courses__text {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 0 20px;
+}
+
+.about_courses__text-down {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 576px) {
+
+    .about_courses__head-title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+
+    .about_courses {
+        background-attachment: fixed;
+    }
+
+    .about_courses__head-title {
+        font-size: 36px;
+    }
+
+    .about_courses__line {
+        width: 15%;
+    }
+
+    .about_courses__text {
+        font-size: 26px;
+    }
+
+    .about_courses__text-down {
+        font-size: 22px;
+    }
+
+    .about_courses__head-block {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .about_courses__head-title {
+        font-size: 40px;
+    }
+
+    .about_courses__line {
+        width: 10%;
+    }
+
+    .about_courses__text {
+        font-size: 30px;
+    }
+
+    .about_courses__text-down {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .about_courses__head-title {
+        font-size: 44px;
+    }
+
+    .about_courses__line {
+        width: 7%;
+    }
+
+    .about_courses__text {
+        font-size: 34px;
+    }
+
+    .about_courses__text-down {
+        font-size: 30px;
+    }
+}

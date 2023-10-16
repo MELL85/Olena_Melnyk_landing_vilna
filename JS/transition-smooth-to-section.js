@@ -28,8 +28,6 @@
             const id = $(this).attr('href'),
                 top = $(id).offset().top;
 
-            // $('body,html').animate({ scrollTop: top - 99 }, 500);
-
             if (document.documentElement.clientWidth < 992) {
                 $('body,html').animate({ scrollTop: top - 74 }, 500);
             } else {

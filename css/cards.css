@@ -1,0 +1,150 @@
+.cards {
+    background-color: var(--COLOR-BG-SECTION);
+}
+
+.cards__head-block {
+    padding: 45px 0;
+}
+
+.cards__head-title-block {
+    text-align: center;
+    padding: 20px 0 0;
+    margin: 0 0 20px;
+}
+
+.cards__head-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-HEAD-TITLE);
+}
+
+.cards__block-item {
+    background-color: var(--COLOR-BG-CARD-COST);
+    text-align: center;
+    padding: 20px 10px 30px;
+    margin: 0 0 30px;
+}
+
+.cards__item-title,
+.cards__item-cost,
+.cards__item-title-down,
+.cards__item-cost-down,
+.cards__item-name-down {
+    font-family: 'Playfair Display', serif;
+    color: var(--COLOR-HEAD-TITLE);
+}
+
+.cards__item-title {
+    margin: 0 0 20px;
+    color: var(--COLOR-BG-SECTION-LIGHT);
+}
+
+.cards__item-title-courses {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: var(--COLOR-HEAD-TITLE);
+}
+
+.cards__item-cost-del {
+    text-decoration: line-through;
+}
+
+.cards__item-line-block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.cards__item-list-block {
+    text-align: left;
+}
+
+.cards__item-line,
+.cards__item-line-down {
+    border-bottom: 1px solid var(--COLOR-TEXT);
+    width: 100%;
+    color: transparent;
+}
+
+.cards__item-line-down {
+    width: 50%;
+}
+
+.cards__item-text-up {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.cards__item-cost-down-del {
+    text-decoration: line-through;
+    margin-top: -10px;
+}
+
+.cards__item-text,
+.cards__item-list {
+    color: var(--COLOR-HEAD-TITLE);
+}
+
+.cards__item-title-down,
+.cards__item-cost-down,
+.cards__item-name-down {
+    margin: 0 0 20px;
+}
+
+.cards__item-list-gift {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.cards__item__block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.cards__item__img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.results__text-gift {
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 767px) {
+    .cards__head-title {
+        font-size: 32px;
+    }
+
+    .cards__head-block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-evenly;
+    }
+
+    .cards__block-item {
+        width: 280px;
+    }
+
+    .cards__item__img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cards__block-item {
+        width: 295px;
+    }
+
+
+    .cards__item__img {
+        width: 30px;
+        height: 30px;
+    }
+}
